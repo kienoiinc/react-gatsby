@@ -1,3 +1,10 @@
-import React from 'react'
+import React from "react";
+import Layout from "../components/layout";
 
-export default () => <div>Liên hệ</div>
+export default () => {
+  return (
+    <Layout>
+      <h1>Liên hệ</h1>
+    </Layout>
+  )
+}
